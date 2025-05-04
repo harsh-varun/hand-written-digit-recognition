@@ -7,7 +7,7 @@ st.title("Handwritten Digit Recognizer")
 
 model = tf.keras.models.load_model("model.h5")
 
-uploaded_file = st.file_uploader("Upload an image of a digit (28x28 grayscale)", type=["png", "jpg", "jpeg"])
+uploaded_file = st.file_uploader("Upload an image of a digit", type=["png", "jpg", "jpeg"])
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file).convert("L")
