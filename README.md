@@ -1,4 +1,4 @@
-# hand-written-digit-recognition
+# Hand Written Digit Recognition
 A Tensorflow model with over 97% accuracy to recognize digit in image and deployed on streamlit.
 
 ## Requirements
