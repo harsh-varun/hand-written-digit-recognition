@@ -7,5 +7,5 @@ A Tensorflow model to recognize digit in any image and deployed on streamlit.
 + Streamlit
 + Pillow
 
-### Use *this* for code.
-### Use *this* for deployment.
+### Use *HandWrittenDigit.ipynb* for code.
+### Use *app.py* for deployment.
